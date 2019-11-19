@@ -1,0 +1,10 @@
+C:\Users\Bramnik\source\repos\SimonGame1\SimonGame1\bin\Debug\SimonGame1.exe.config
+C:\Users\Bramnik\source\repos\SimonGame1\SimonGame1\bin\Debug\SimonGame1.exe
+C:\Users\Bramnik\source\repos\SimonGame1\SimonGame1\bin\Debug\SimonGame1.pdb
+C:\Users\Bramnik\source\repos\SimonGame1\SimonGame1\obj\Debug\SimonGame1.csprojResolveAssemblyReference.cache
+C:\Users\Bramnik\source\repos\SimonGame1\SimonGame1\obj\Debug\SimonGame1.Form1.resources
+C:\Users\Bramnik\source\repos\SimonGame1\SimonGame1\obj\Debug\SimonGame1.Properties.Resources.resources
+C:\Users\Bramnik\source\repos\SimonGame1\SimonGame1\obj\Debug\SimonGame1.csproj.GenerateResource.cache
+C:\Users\Bramnik\source\repos\SimonGame1\SimonGame1\obj\Debug\SimonGame1.csproj.CoreCompileInputs.cache
+C:\Users\Bramnik\source\repos\SimonGame1\SimonGame1\obj\Debug\SimonGame1.exe
+C:\Users\Bramnik\source\repos\SimonGame1\SimonGame1\obj\Debug\SimonGame1.pdb
