@@ -1,0 +1,15 @@
+C:\Users\Bramnik\source\repos\CalculatorWPF\CalculatorWPF\bin\Release\CalculatorWPF.exe.config
+C:\Users\Bramnik\source\repos\CalculatorWPF\CalculatorWPF\bin\Release\CalculatorWPF.exe
+C:\Users\Bramnik\source\repos\CalculatorWPF\CalculatorWPF\bin\Release\CalculatorWPF.pdb
+C:\Users\Bramnik\source\repos\CalculatorWPF\CalculatorWPF\obj\Release\MainWindow.g.cs
+C:\Users\Bramnik\source\repos\CalculatorWPF\CalculatorWPF\obj\Release\App.g.cs
+C:\Users\Bramnik\source\repos\CalculatorWPF\CalculatorWPF\obj\Release\CalculatorWPF_MarkupCompile.cache
+C:\Users\Bramnik\source\repos\CalculatorWPF\CalculatorWPF\obj\Release\CalculatorWPF_MarkupCompile.lref
+C:\Users\Bramnik\source\repos\CalculatorWPF\CalculatorWPF\obj\Release\MainWindow.baml
+C:\Users\Bramnik\source\repos\CalculatorWPF\CalculatorWPF\obj\Release\CalculatorWPF.g.resources
+C:\Users\Bramnik\source\repos\CalculatorWPF\CalculatorWPF\obj\Release\CalculatorWPF.Properties.Resources.resources
+C:\Users\Bramnik\source\repos\CalculatorWPF\CalculatorWPF\obj\Release\CalculatorWPF.csproj.GenerateResource.cache
+C:\Users\Bramnik\source\repos\CalculatorWPF\CalculatorWPF\obj\Release\CalculatorWPF.csproj.CoreCompileInputs.cache
+C:\Users\Bramnik\source\repos\CalculatorWPF\CalculatorWPF\obj\Release\CalculatorWPF.exe
+C:\Users\Bramnik\source\repos\CalculatorWPF\CalculatorWPF\obj\Release\CalculatorWPF.pdb
+C:\Users\Bramnik\source\repos\CalculatorWPF\CalculatorWPF\obj\Release\CalculatorWPF.csprojResolveAssemblyReference.cache
