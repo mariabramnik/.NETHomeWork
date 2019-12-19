@@ -1,0 +1,7 @@
+c:\users\bramnik\source\repos\SerializationHomeWork21\SerializationHomeWork21\bin\Debug\SerializationHomeWork21.exe.config
+c:\users\bramnik\source\repos\SerializationHomeWork21\SerializationHomeWork21\bin\Debug\SerializationHomeWork21.exe
+c:\users\bramnik\source\repos\SerializationHomeWork21\SerializationHomeWork21\bin\Debug\SerializationHomeWork21.pdb
+c:\users\bramnik\source\repos\SerializationHomeWork21\SerializationHomeWork21\obj\Debug\SerializationHomeWork21.csproj.CoreCompileInputs.cache
+c:\users\bramnik\source\repos\SerializationHomeWork21\SerializationHomeWork21\obj\Debug\SerializationHomeWork21.exe
+c:\users\bramnik\source\repos\SerializationHomeWork21\SerializationHomeWork21\obj\Debug\SerializationHomeWork21.pdb
+C:\Users\Bramnik\source\repos\SerializationHomeWork21\SerializationHomeWork21\obj\Debug\SerializationHomeWork21.csprojResolveAssemblyReference.cache
