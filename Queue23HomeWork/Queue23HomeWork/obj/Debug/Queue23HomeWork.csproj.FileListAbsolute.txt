@@ -1,0 +1,7 @@
+C:\Users\Bramnik\source\repos\Queue23HomeWork\Queue23HomeWork\bin\Debug\Queue23HomeWork.exe.config
+C:\Users\Bramnik\source\repos\Queue23HomeWork\Queue23HomeWork\bin\Debug\Queue23HomeWork.exe
+C:\Users\Bramnik\source\repos\Queue23HomeWork\Queue23HomeWork\bin\Debug\Queue23HomeWork.pdb
+C:\Users\Bramnik\source\repos\Queue23HomeWork\Queue23HomeWork\obj\Debug\Queue23HomeWork.csprojResolveAssemblyReference.cache
+C:\Users\Bramnik\source\repos\Queue23HomeWork\Queue23HomeWork\obj\Debug\Queue23HomeWork.csproj.CoreCompileInputs.cache
+C:\Users\Bramnik\source\repos\Queue23HomeWork\Queue23HomeWork\obj\Debug\Queue23HomeWork.exe
+C:\Users\Bramnik\source\repos\Queue23HomeWork\Queue23HomeWork\obj\Debug\Queue23HomeWork.pdb
