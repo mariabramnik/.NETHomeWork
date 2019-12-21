@@ -1,0 +1,7 @@
+c:\users\bramnik\source\repos\HomeWorkDictionary24\HomeWorkDictionary24\bin\Debug\HomeWorkDictionary24.exe.config
+c:\users\bramnik\source\repos\HomeWorkDictionary24\HomeWorkDictionary24\bin\Debug\HomeWorkDictionary24.exe
+c:\users\bramnik\source\repos\HomeWorkDictionary24\HomeWorkDictionary24\bin\Debug\HomeWorkDictionary24.pdb
+c:\users\bramnik\source\repos\HomeWorkDictionary24\HomeWorkDictionary24\obj\Debug\HomeWorkDictionary24.csprojResolveAssemblyReference.cache
+c:\users\bramnik\source\repos\HomeWorkDictionary24\HomeWorkDictionary24\obj\Debug\HomeWorkDictionary24.csproj.CoreCompileInputs.cache
+c:\users\bramnik\source\repos\HomeWorkDictionary24\HomeWorkDictionary24\obj\Debug\HomeWorkDictionary24.exe
+c:\users\bramnik\source\repos\HomeWorkDictionary24\HomeWorkDictionary24\obj\Debug\HomeWorkDictionary24.pdb
