@@ -1,0 +1,7 @@
+c:\users\bramnik\source\repos\HomeWork25GenericInimerable\HomeWork25GenericInimerable\bin\Debug\HomeWork25GenericInimerable.exe.config
+c:\users\bramnik\source\repos\HomeWork25GenericInimerable\HomeWork25GenericInimerable\bin\Debug\HomeWork25GenericInimerable.exe
+c:\users\bramnik\source\repos\HomeWork25GenericInimerable\HomeWork25GenericInimerable\bin\Debug\HomeWork25GenericInimerable.pdb
+c:\users\bramnik\source\repos\HomeWork25GenericInimerable\HomeWork25GenericInimerable\obj\Debug\HomeWork25GenericInimerable.csprojResolveAssemblyReference.cache
+c:\users\bramnik\source\repos\HomeWork25GenericInimerable\HomeWork25GenericInimerable\obj\Debug\HomeWork25GenericInimerable.csproj.CoreCompileInputs.cache
+c:\users\bramnik\source\repos\HomeWork25GenericInimerable\HomeWork25GenericInimerable\obj\Debug\HomeWork25GenericInimerable.exe
+c:\users\bramnik\source\repos\HomeWork25GenericInimerable\HomeWork25GenericInimerable\obj\Debug\HomeWork25GenericInimerable.pdb
