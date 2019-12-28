@@ -1,0 +1,10 @@
+C:\Users\Bramnik\source\repos\BankTransactions\BankTransactions\obj\Debug\BankTransactions.csproj.CoreCompileInputs.cache
+C:\Users\Bramnik\source\repos\BankTransactions\BankTransactions\bin\Debug\BankTransactions.exe.config
+C:\Users\Bramnik\source\repos\BankTransactions\BankTransactions\bin\Debug\BankTransactions.exe
+C:\Users\Bramnik\source\repos\BankTransactions\BankTransactions\bin\Debug\BankTransactions.pdb
+C:\Users\Bramnik\source\repos\BankTransactions\BankTransactions\obj\Debug\BankTransactions.exe
+C:\Users\Bramnik\source\repos\BankTransactions\BankTransactions\obj\Debug\BankTransactions.pdb
+C:\Users\Bramnik\source\repos\BankTransactions\BankTransactions\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\Bramnik\source\repos\BankTransactions\BankTransactions\bin\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\Bramnik\source\repos\BankTransactions\BankTransactions\obj\Debug\BankTransactions.csproj.CopyComplete
+C:\Users\Bramnik\source\repos\BankTransactions\BankTransactions\obj\Debug\BankTransactions.csprojResolveAssemblyReference.cache
