@@ -1,0 +1,17 @@
+c:\users\bramnik\source\repos\HomeWork28Part2SQLLite\HomeWork28Part2SQLLite\bin\Debug\HomeWork28Part2SQLLite.exe.config
+c:\users\bramnik\source\repos\HomeWork28Part2SQLLite\HomeWork28Part2SQLLite\bin\Debug\HomeWork28Part2SQLLite.exe
+c:\users\bramnik\source\repos\HomeWork28Part2SQLLite\HomeWork28Part2SQLLite\bin\Debug\HomeWork28Part2SQLLite.pdb
+c:\users\bramnik\source\repos\HomeWork28Part2SQLLite\HomeWork28Part2SQLLite\bin\Debug\EntityFramework.dll
+c:\users\bramnik\source\repos\HomeWork28Part2SQLLite\HomeWork28Part2SQLLite\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\bramnik\source\repos\HomeWork28Part2SQLLite\HomeWork28Part2SQLLite\bin\Debug\System.Data.SQLite.dll
+c:\users\bramnik\source\repos\HomeWork28Part2SQLLite\HomeWork28Part2SQLLite\bin\Debug\System.Data.SQLite.EF6.dll
+c:\users\bramnik\source\repos\HomeWork28Part2SQLLite\HomeWork28Part2SQLLite\bin\Debug\System.Data.SQLite.Linq.dll
+c:\users\bramnik\source\repos\HomeWork28Part2SQLLite\HomeWork28Part2SQLLite\bin\Debug\EntityFramework.xml
+c:\users\bramnik\source\repos\HomeWork28Part2SQLLite\HomeWork28Part2SQLLite\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\bramnik\source\repos\HomeWork28Part2SQLLite\HomeWork28Part2SQLLite\bin\Debug\System.Data.SQLite.xml
+c:\users\bramnik\source\repos\HomeWork28Part2SQLLite\HomeWork28Part2SQLLite\bin\Debug\System.Data.SQLite.dll.config
+c:\users\bramnik\source\repos\HomeWork28Part2SQLLite\HomeWork28Part2SQLLite\obj\Debug\HomeWork28Part2SQLLite.csprojResolveAssemblyReference.cache
+c:\users\bramnik\source\repos\HomeWork28Part2SQLLite\HomeWork28Part2SQLLite\obj\Debug\HomeWork28Part2SQLLite.csproj.CoreCompileInputs.cache
+c:\users\bramnik\source\repos\HomeWork28Part2SQLLite\HomeWork28Part2SQLLite\obj\Debug\HomeWork28Part2SQLLite.csproj.CopyComplete
+c:\users\bramnik\source\repos\HomeWork28Part2SQLLite\HomeWork28Part2SQLLite\obj\Debug\HomeWork28Part2SQLLite.exe
+c:\users\bramnik\source\repos\HomeWork28Part2SQLLite\HomeWork28Part2SQLLite\obj\Debug\HomeWork28Part2SQLLite.pdb
