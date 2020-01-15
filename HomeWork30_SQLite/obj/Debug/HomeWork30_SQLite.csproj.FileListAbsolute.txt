@@ -1,0 +1,17 @@
+c:\users\bramnik\source\repos\HomeWork30_SQLite\HomeWork30_SQLite\bin\Debug\HomeWork30_SQLite.exe.config
+c:\users\bramnik\source\repos\HomeWork30_SQLite\HomeWork30_SQLite\bin\Debug\HomeWork30_SQLite.exe
+c:\users\bramnik\source\repos\HomeWork30_SQLite\HomeWork30_SQLite\bin\Debug\HomeWork30_SQLite.pdb
+c:\users\bramnik\source\repos\HomeWork30_SQLite\HomeWork30_SQLite\bin\Debug\EntityFramework.dll
+c:\users\bramnik\source\repos\HomeWork30_SQLite\HomeWork30_SQLite\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\bramnik\source\repos\HomeWork30_SQLite\HomeWork30_SQLite\bin\Debug\System.Data.SQLite.dll
+c:\users\bramnik\source\repos\HomeWork30_SQLite\HomeWork30_SQLite\bin\Debug\System.Data.SQLite.EF6.dll
+c:\users\bramnik\source\repos\HomeWork30_SQLite\HomeWork30_SQLite\bin\Debug\System.Data.SQLite.Linq.dll
+c:\users\bramnik\source\repos\HomeWork30_SQLite\HomeWork30_SQLite\bin\Debug\EntityFramework.xml
+c:\users\bramnik\source\repos\HomeWork30_SQLite\HomeWork30_SQLite\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\bramnik\source\repos\HomeWork30_SQLite\HomeWork30_SQLite\bin\Debug\System.Data.SQLite.xml
+c:\users\bramnik\source\repos\HomeWork30_SQLite\HomeWork30_SQLite\bin\Debug\System.Data.SQLite.dll.config
+c:\users\bramnik\source\repos\HomeWork30_SQLite\HomeWork30_SQLite\obj\Debug\HomeWork30_SQLite.csprojResolveAssemblyReference.cache
+c:\users\bramnik\source\repos\HomeWork30_SQLite\HomeWork30_SQLite\obj\Debug\HomeWork30_SQLite.csproj.CoreCompileInputs.cache
+c:\users\bramnik\source\repos\HomeWork30_SQLite\HomeWork30_SQLite\obj\Debug\HomeWork30_SQLite.csproj.CopyComplete
+c:\users\bramnik\source\repos\HomeWork30_SQLite\HomeWork30_SQLite\obj\Debug\HomeWork30_SQLite.exe
+c:\users\bramnik\source\repos\HomeWork30_SQLite\HomeWork30_SQLite\obj\Debug\HomeWork30_SQLite.pdb
