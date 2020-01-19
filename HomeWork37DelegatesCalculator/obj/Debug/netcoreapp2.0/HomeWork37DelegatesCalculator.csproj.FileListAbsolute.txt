@@ -1,0 +1,11 @@
+c:\users\bramnik\source\repos\HomeWork37DelegatesCalculator\HomeWork37DelegatesCalculator\bin\Debug\netcoreapp2.0\HomeWork37DelegatesCalculator.deps.json
+c:\users\bramnik\source\repos\HomeWork37DelegatesCalculator\HomeWork37DelegatesCalculator\bin\Debug\netcoreapp2.0\HomeWork37DelegatesCalculator.runtimeconfig.json
+c:\users\bramnik\source\repos\HomeWork37DelegatesCalculator\HomeWork37DelegatesCalculator\bin\Debug\netcoreapp2.0\HomeWork37DelegatesCalculator.runtimeconfig.dev.json
+c:\users\bramnik\source\repos\HomeWork37DelegatesCalculator\HomeWork37DelegatesCalculator\bin\Debug\netcoreapp2.0\HomeWork37DelegatesCalculator.dll
+c:\users\bramnik\source\repos\HomeWork37DelegatesCalculator\HomeWork37DelegatesCalculator\bin\Debug\netcoreapp2.0\HomeWork37DelegatesCalculator.pdb
+c:\users\bramnik\source\repos\HomeWork37DelegatesCalculator\HomeWork37DelegatesCalculator\obj\Debug\netcoreapp2.0\HomeWork37DelegatesCalculator.csprojResolveAssemblyReference.cache
+c:\users\bramnik\source\repos\HomeWork37DelegatesCalculator\HomeWork37DelegatesCalculator\obj\Debug\netcoreapp2.0\HomeWork37DelegatesCalculator.csproj.CoreCompileInputs.cache
+c:\users\bramnik\source\repos\HomeWork37DelegatesCalculator\HomeWork37DelegatesCalculator\obj\Debug\netcoreapp2.0\HomeWork37DelegatesCalculator.AssemblyInfoInputs.cache
+c:\users\bramnik\source\repos\HomeWork37DelegatesCalculator\HomeWork37DelegatesCalculator\obj\Debug\netcoreapp2.0\HomeWork37DelegatesCalculator.AssemblyInfo.cs
+c:\users\bramnik\source\repos\HomeWork37DelegatesCalculator\HomeWork37DelegatesCalculator\obj\Debug\netcoreapp2.0\HomeWork37DelegatesCalculator.dll
+c:\users\bramnik\source\repos\HomeWork37DelegatesCalculator\HomeWork37DelegatesCalculator\obj\Debug\netcoreapp2.0\HomeWork37DelegatesCalculator.pdb
