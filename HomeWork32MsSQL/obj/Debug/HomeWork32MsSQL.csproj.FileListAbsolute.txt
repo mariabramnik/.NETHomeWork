@@ -1,0 +1,7 @@
+c:\users\bramnik\source\repos\HomeWork32MsSQL\HomeWork32MsSQL\bin\Debug\HomeWork32MsSQL.exe.config
+c:\users\bramnik\source\repos\HomeWork32MsSQL\HomeWork32MsSQL\bin\Debug\HomeWork32MsSQL.exe
+c:\users\bramnik\source\repos\HomeWork32MsSQL\HomeWork32MsSQL\bin\Debug\HomeWork32MsSQL.pdb
+c:\users\bramnik\source\repos\HomeWork32MsSQL\HomeWork32MsSQL\obj\Debug\HomeWork32MsSQL.csprojResolveAssemblyReference.cache
+c:\users\bramnik\source\repos\HomeWork32MsSQL\HomeWork32MsSQL\obj\Debug\HomeWork32MsSQL.csproj.CoreCompileInputs.cache
+c:\users\bramnik\source\repos\HomeWork32MsSQL\HomeWork32MsSQL\obj\Debug\HomeWork32MsSQL.exe
+c:\users\bramnik\source\repos\HomeWork32MsSQL\HomeWork32MsSQL\obj\Debug\HomeWork32MsSQL.pdb
