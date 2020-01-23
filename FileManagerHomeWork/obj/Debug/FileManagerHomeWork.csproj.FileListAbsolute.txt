@@ -1,0 +1,7 @@
+c:\users\bramnik\source\repos\FileManagerHomeWork\FileManagerHomeWork\obj\Debug\FileManagerHomeWork.csprojResolveAssemblyReference.cache
+c:\users\bramnik\source\repos\FileManagerHomeWork\FileManagerHomeWork\obj\Debug\FileManagerHomeWork.csproj.CoreCompileInputs.cache
+c:\users\bramnik\source\repos\FileManagerHomeWork\FileManagerHomeWork\bin\Debug\FileManagerHomeWork.exe.config
+c:\users\bramnik\source\repos\FileManagerHomeWork\FileManagerHomeWork\bin\Debug\FileManagerHomeWork.exe
+c:\users\bramnik\source\repos\FileManagerHomeWork\FileManagerHomeWork\bin\Debug\FileManagerHomeWork.pdb
+c:\users\bramnik\source\repos\FileManagerHomeWork\FileManagerHomeWork\obj\Debug\FileManagerHomeWork.exe
+c:\users\bramnik\source\repos\FileManagerHomeWork\FileManagerHomeWork\obj\Debug\FileManagerHomeWork.pdb
