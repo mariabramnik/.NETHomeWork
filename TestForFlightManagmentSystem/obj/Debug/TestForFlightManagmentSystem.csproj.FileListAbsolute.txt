@@ -1,0 +1,16 @@
+c:\users\bramnik\source\repos\FlightManagementSystem\TestForFlightManagmentSystem\obj\Debug\TestForFlightManagmentSystem.csprojResolveAssemblyReference.cache
+c:\users\bramnik\source\repos\FlightManagementSystem\TestForFlightManagmentSystem\obj\Debug\TestForFlightManagmentSystem.csproj.CoreCompileInputs.cache
+c:\users\bramnik\source\repos\FlightManagementSystem\TestForFlightManagmentSystem\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+c:\users\bramnik\source\repos\FlightManagementSystem\TestForFlightManagmentSystem\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+c:\users\bramnik\source\repos\FlightManagementSystem\TestForFlightManagmentSystem\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+c:\users\bramnik\source\repos\FlightManagementSystem\TestForFlightManagmentSystem\bin\Debug\TestForFlightManagmentSystem.dll
+c:\users\bramnik\source\repos\FlightManagementSystem\TestForFlightManagmentSystem\bin\Debug\TestForFlightManagmentSystem.pdb
+c:\users\bramnik\source\repos\FlightManagementSystem\TestForFlightManagmentSystem\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+c:\users\bramnik\source\repos\FlightManagementSystem\TestForFlightManagmentSystem\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+c:\users\bramnik\source\repos\FlightManagementSystem\TestForFlightManagmentSystem\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+c:\users\bramnik\source\repos\FlightManagementSystem\TestForFlightManagmentSystem\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+c:\users\bramnik\source\repos\FlightManagementSystem\TestForFlightManagmentSystem\obj\Debug\TestForFlightManagmentSystem.csproj.CopyComplete
+c:\users\bramnik\source\repos\FlightManagementSystem\TestForFlightManagmentSystem\obj\Debug\TestForFlightManagmentSystem.dll
+c:\users\bramnik\source\repos\FlightManagementSystem\TestForFlightManagmentSystem\obj\Debug\TestForFlightManagmentSystem.pdb
+c:\users\bramnik\source\repos\FlightManagementSystem\TestForFlightManagmentSystem\bin\Debug\FlightManagementSystem.dll
+c:\users\bramnik\source\repos\FlightManagementSystem\TestForFlightManagmentSystem\bin\Debug\FlightManagementSystem.pdb
