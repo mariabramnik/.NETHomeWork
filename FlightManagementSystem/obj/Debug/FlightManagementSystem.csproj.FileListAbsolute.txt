@@ -1,0 +1,6 @@
+c:\users\bramnik\source\repos\FlightManagementSystem\FlightManagementSystem\obj\Debug\FlightManagementSystem.csproj.CoreCompileInputs.cache
+c:\users\bramnik\source\repos\FlightManagementSystem\FlightManagementSystem\bin\Debug\FlightManagementSystem.dll
+c:\users\bramnik\source\repos\FlightManagementSystem\FlightManagementSystem\bin\Debug\FlightManagementSystem.pdb
+c:\users\bramnik\source\repos\FlightManagementSystem\FlightManagementSystem\obj\Debug\FlightManagementSystem.dll
+c:\users\bramnik\source\repos\FlightManagementSystem\FlightManagementSystem\obj\Debug\FlightManagementSystem.pdb
+C:\Users\Bramnik\source\repos\FlightManagementSystem\FlightManagementSystem\obj\Debug\FlightManagementSystem.csprojResolveAssemblyReference.cache
