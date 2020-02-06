@@ -1,0 +1,7 @@
+c:\users\bramnik\source\repos\HomeWork40ThreadsPart2\HomeWork40ThreadsPart2\bin\Debug\HomeWork40ThreadsPart2.exe.config
+c:\users\bramnik\source\repos\HomeWork40ThreadsPart2\HomeWork40ThreadsPart2\bin\Debug\HomeWork40ThreadsPart2.exe
+c:\users\bramnik\source\repos\HomeWork40ThreadsPart2\HomeWork40ThreadsPart2\bin\Debug\HomeWork40ThreadsPart2.pdb
+c:\users\bramnik\source\repos\HomeWork40ThreadsPart2\HomeWork40ThreadsPart2\obj\Debug\HomeWork40ThreadsPart2.csprojResolveAssemblyReference.cache
+c:\users\bramnik\source\repos\HomeWork40ThreadsPart2\HomeWork40ThreadsPart2\obj\Debug\HomeWork40ThreadsPart2.csproj.CoreCompileInputs.cache
+c:\users\bramnik\source\repos\HomeWork40ThreadsPart2\HomeWork40ThreadsPart2\obj\Debug\HomeWork40ThreadsPart2.exe
+c:\users\bramnik\source\repos\HomeWork40ThreadsPart2\HomeWork40ThreadsPart2\obj\Debug\HomeWork40ThreadsPart2.pdb
