@@ -1,0 +1,7 @@
+c:\users\bramnik\source\repos\StudentsCoursesGrades\StudentsCoursesGrades\bin\Debug\StudentsCoursesGrades.exe.config
+c:\users\bramnik\source\repos\StudentsCoursesGrades\StudentsCoursesGrades\bin\Debug\StudentsCoursesGrades.exe
+c:\users\bramnik\source\repos\StudentsCoursesGrades\StudentsCoursesGrades\bin\Debug\StudentsCoursesGrades.pdb
+c:\users\bramnik\source\repos\StudentsCoursesGrades\StudentsCoursesGrades\obj\Debug\StudentsCoursesGrades.csprojResolveAssemblyReference.cache
+c:\users\bramnik\source\repos\StudentsCoursesGrades\StudentsCoursesGrades\obj\Debug\StudentsCoursesGrades.csproj.CoreCompileInputs.cache
+c:\users\bramnik\source\repos\StudentsCoursesGrades\StudentsCoursesGrades\obj\Debug\StudentsCoursesGrades.exe
+c:\users\bramnik\source\repos\StudentsCoursesGrades\StudentsCoursesGrades\obj\Debug\StudentsCoursesGrades.pdb
