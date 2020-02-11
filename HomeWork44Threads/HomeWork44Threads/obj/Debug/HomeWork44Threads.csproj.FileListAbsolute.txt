@@ -1,0 +1,7 @@
+c:\users\bramnik\source\repos\HomeWork44Threads\HomeWork44Threads\bin\Debug\HomeWork44Threads.exe.config
+c:\users\bramnik\source\repos\HomeWork44Threads\HomeWork44Threads\bin\Debug\HomeWork44Threads.exe
+c:\users\bramnik\source\repos\HomeWork44Threads\HomeWork44Threads\bin\Debug\HomeWork44Threads.pdb
+c:\users\bramnik\source\repos\HomeWork44Threads\HomeWork44Threads\obj\Debug\HomeWork44Threads.csprojResolveAssemblyReference.cache
+c:\users\bramnik\source\repos\HomeWork44Threads\HomeWork44Threads\obj\Debug\HomeWork44Threads.csproj.CoreCompileInputs.cache
+c:\users\bramnik\source\repos\HomeWork44Threads\HomeWork44Threads\obj\Debug\HomeWork44Threads.exe
+c:\users\bramnik\source\repos\HomeWork44Threads\HomeWork44Threads\obj\Debug\HomeWork44Threads.pdb
