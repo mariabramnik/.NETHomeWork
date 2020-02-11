@@ -1,0 +1,7 @@
+c:\users\bramnik\source\repos\HomeWork44Part2Task\HomeWork44Part2Task\bin\Debug\HomeWork44Part2Task.exe.config
+c:\users\bramnik\source\repos\HomeWork44Part2Task\HomeWork44Part2Task\bin\Debug\HomeWork44Part2Task.exe
+c:\users\bramnik\source\repos\HomeWork44Part2Task\HomeWork44Part2Task\bin\Debug\HomeWork44Part2Task.pdb
+c:\users\bramnik\source\repos\HomeWork44Part2Task\HomeWork44Part2Task\obj\Debug\HomeWork44Part2Task.csprojResolveAssemblyReference.cache
+c:\users\bramnik\source\repos\HomeWork44Part2Task\HomeWork44Part2Task\obj\Debug\HomeWork44Part2Task.csproj.CoreCompileInputs.cache
+c:\users\bramnik\source\repos\HomeWork44Part2Task\HomeWork44Part2Task\obj\Debug\HomeWork44Part2Task.exe
+c:\users\bramnik\source\repos\HomeWork44Part2Task\HomeWork44Part2Task\obj\Debug\HomeWork44Part2Task.pdb
