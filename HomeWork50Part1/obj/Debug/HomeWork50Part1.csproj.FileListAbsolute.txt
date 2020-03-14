@@ -1,0 +1,16 @@
+c:\users\bramnik\source\repos\HomeWork50Part1\HomeWork50Part1\bin\Debug\HomeWork50Part1.exe.config
+c:\users\bramnik\source\repos\HomeWork50Part1\HomeWork50Part1\bin\Debug\HomeWork50Part1.exe
+c:\users\bramnik\source\repos\HomeWork50Part1\HomeWork50Part1\bin\Debug\HomeWork50Part1.pdb
+c:\users\bramnik\source\repos\HomeWork50Part1\HomeWork50Part1\obj\Debug\HomeWork50Part1.csprojResolveAssemblyReference.cache
+c:\users\bramnik\source\repos\HomeWork50Part1\HomeWork50Part1\obj\Debug\MainWindow.g.cs
+c:\users\bramnik\source\repos\HomeWork50Part1\HomeWork50Part1\obj\Debug\App.g.cs
+c:\users\bramnik\source\repos\HomeWork50Part1\HomeWork50Part1\obj\Debug\HomeWork50Part1_MarkupCompile.cache
+c:\users\bramnik\source\repos\HomeWork50Part1\HomeWork50Part1\obj\Debug\HomeWork50Part1_MarkupCompile.lref
+c:\users\bramnik\source\repos\HomeWork50Part1\HomeWork50Part1\obj\Debug\App.baml
+c:\users\bramnik\source\repos\HomeWork50Part1\HomeWork50Part1\obj\Debug\MainWindow.baml
+c:\users\bramnik\source\repos\HomeWork50Part1\HomeWork50Part1\obj\Debug\HomeWork50Part1.g.resources
+c:\users\bramnik\source\repos\HomeWork50Part1\HomeWork50Part1\obj\Debug\HomeWork50Part1.Properties.Resources.resources
+c:\users\bramnik\source\repos\HomeWork50Part1\HomeWork50Part1\obj\Debug\HomeWork50Part1.csproj.GenerateResource.cache
+c:\users\bramnik\source\repos\HomeWork50Part1\HomeWork50Part1\obj\Debug\HomeWork50Part1.csproj.CoreCompileInputs.cache
+c:\users\bramnik\source\repos\HomeWork50Part1\HomeWork50Part1\obj\Debug\HomeWork50Part1.exe
+c:\users\bramnik\source\repos\HomeWork50Part1\HomeWork50Part1\obj\Debug\HomeWork50Part1.pdb
