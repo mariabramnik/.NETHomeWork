@@ -1,0 +1,53 @@
+﻿<Window x:Class="HomeWork48WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HomeWork48WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="800" Name="myWindow" Background="Aqua">
+    <Window.Resources>
+        <ControlTemplate TargetType="Button" x:Key="btTemplate">
+            <Border x:Name="buttonBorder" CornerRadius="25" BorderBrush="CadetBlue" BorderThickness="2"
+                    MinHeight="45" MaxWidth="400" MinWidth="200" Background="{TemplateBinding Background}" Margin="10" >
+                <ContentControl Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center" Content="{TemplateBinding Content}"/>
+               
+            </Border>
+            
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter  Property="FontWeight" Value="Bold" />
+                    <Setter TargetName="buttonBorder" Property="Background" Value="White"/>
+                    <Setter TargetName="buttonBorder" Property="BorderBrush" Value="Pink" />
+                </Trigger>
+                <Trigger Property="IsPressed" Value="true">
+                    <Setter TargetName="buttonBorder" Property="Background" Value="#f7a99e" />
+                    <Setter TargetName="buttonBorder" Property="BorderBrush" Value="Red" />
+                </Trigger>
+                <Trigger Property="IsEnabled" Value="true">
+                    <Setter Property="Foreground" Value="Black"/>
+                </Trigger>
+                <EventTrigger RoutedEvent="Button.Click" >
+         
+                </EventTrigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+    </Window.Resources>
+    <Viewbox>
+        <StackPanel Orientation="Vertical" MaxHeight="800" MaxWidth="800"   Background="Aqua" Height="441" Width="513" >
+            <TextBlock Padding="10" TextAlignment="Center" MinHeight="50" FontFamily="Arial" FontSize="37" MaxWidth="600" MinWidth="200" Height="68" Margin="0,0,-0.2,0" ><Run Text="How do you like your coffee?"/></TextBlock>
+            <Button Name="btn1" Template="{StaticResource btTemplate}" Content="Black" Background="#d5e0f2" Click="Button_Click" />
+            <Button Name="btn2" Template="{StaticResource btTemplate }" Content="With milk" Background="#d5e0f2" Click="Button_Click_1" />
+            <Button Name="btn3" Template="{StaticResource btTemplate}" Content="Latte" Background="#d5e0f2"   Click="Button_Click_2" />
+            <Button Name="btn4" Content="Cappuccino" Template="{StaticResource btTemplate}" Background="#d5e0f2" Click="Button_Click_3" />
+            <StackPanel x:Name="stackPanel" Margin="10">
+                <RadioButton Name="radio1" GroupName="Sugar" Content="Sugar free" IsChecked="False" Margin="5" Checked="RadioButton_Checked" />
+                <RadioButton Name="radio2" GroupName="Sugar" Content="1 teaspoon of sugar" IsChecked="False" Margin="5" Checked="RadioButton_Checked" />
+                <RadioButton Name="radio3" GroupName="Sugar" Content="2 teaspoons of sugar" IsChecked="False" Margin="5" Checked="RadioButton_Checked" />
+                <RadioButton Name="radio4" GroupName="Sugar" Content="3 teaspoons of sugar" IsChecked="False" Margin="5"  Checked="RadioButton_Checked" />
+            </StackPanel>
+
+
+        </StackPanel>
+    </Viewbox>
+</Window>

@@ -1,0 +1,17 @@
+c:\users\bramnik\source\repos\HomeWork48WPF\HomeWork48WPF\bin\Debug\HomeWork48WPF.exe.config
+c:\users\bramnik\source\repos\HomeWork48WPF\HomeWork48WPF\bin\Debug\HomeWork48WPF.exe
+c:\users\bramnik\source\repos\HomeWork48WPF\HomeWork48WPF\bin\Debug\HomeWork48WPF.pdb
+c:\users\bramnik\source\repos\HomeWork48WPF\HomeWork48WPF\obj\Debug\HomeWork48WPF.csprojResolveAssemblyReference.cache
+c:\users\bramnik\source\repos\HomeWork48WPF\HomeWork48WPF\obj\Debug\MainWindow.g.cs
+c:\users\bramnik\source\repos\HomeWork48WPF\HomeWork48WPF\obj\Debug\App.g.cs
+c:\users\bramnik\source\repos\HomeWork48WPF\HomeWork48WPF\obj\Debug\HomeWork48WPF_MarkupCompile.cache
+c:\users\bramnik\source\repos\HomeWork48WPF\HomeWork48WPF\obj\Debug\MainWindow.baml
+c:\users\bramnik\source\repos\HomeWork48WPF\HomeWork48WPF\obj\Debug\HomeWork48WPF.g.resources
+c:\users\bramnik\source\repos\HomeWork48WPF\HomeWork48WPF\obj\Debug\HomeWork48WPF.Properties.Resources.resources
+c:\users\bramnik\source\repos\HomeWork48WPF\HomeWork48WPF\obj\Debug\HomeWork48WPF.csproj.GenerateResource.cache
+c:\users\bramnik\source\repos\HomeWork48WPF\HomeWork48WPF\obj\Debug\HomeWork48WPF.csproj.CoreCompileInputs.cache
+c:\users\bramnik\source\repos\HomeWork48WPF\HomeWork48WPF\obj\Debug\HomeWork48WPF.exe
+c:\users\bramnik\source\repos\HomeWork48WPF\HomeWork48WPF\obj\Debug\HomeWork48WPF.pdb
+C:\Users\Bramnik\source\repos\HomeWork48WPF\HomeWork48WPF\obj\Debug\HomeWork48WPF_MarkupCompile.lref
+C:\Users\Bramnik\source\repos\HomeWork48WPF\HomeWork48WPF\obj\Debug\TaskWindow.g.cs
+C:\Users\Bramnik\source\repos\HomeWork48WPF\HomeWork48WPF\obj\Debug\TaskWindow.baml
