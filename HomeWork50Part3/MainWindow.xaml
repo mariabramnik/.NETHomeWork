@@ -5,18 +5,63 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HomeWork50Part3"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="800" Margin="20" Background="#04c582">
+        Title="MainWindow" Height="800" Width="2000" Margin="20" Background="#04c582">
     <Border Background="#2e3137" CornerRadius="20" Margin="25">
+
         <StackPanel Margin="25">
             <Label Content="All Flights" Foreground="White" FontSize="25" HorizontalAlignment="Center">
             </Label>
             <Separator></Separator>
-            <ListBox x:Name="myListBox" Margin="100,0,100,0">
-                <ListBox.ItemTemplate>
-                    <DataTemplate>
+            <Grid ShowGridLines="False" Margin="50,0,50,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition  Width="70" >
+                    </ColumnDefinition>
+                    <ColumnDefinition Width="200">
+                    </ColumnDefinition>
+                    <ColumnDefinition Width="200">
+                    </ColumnDefinition>
+                    <ColumnDefinition Width="200">
+                    </ColumnDefinition>
+                    <ColumnDefinition Width="200">
+                    </ColumnDefinition>
+                    <ColumnDefinition Width="200">
+                    </ColumnDefinition>
+                    <ColumnDefinition Width="120">
+                    </ColumnDefinition>
+                    <ColumnDefinition Width="120">
+                    </ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50">
+                    </RowDefinition>
+                </Grid.RowDefinitions>
+                <TextBlock Text="Id" Grid.Column="0" Grid.Row="1"  Foreground="Red" FontSize="16" TextAlignment="Center" ></TextBlock >
+                <TextBlock Text="AirLineCompany" Grid.Column="1" Grid.Row="1"  Foreground="Red" FontSize="16" TextAlignment="Center"></TextBlock >
+                <TextBlock Text="OriginCountry" Grid.Column="2" Grid.Row="1"  Foreground="Red" FontSize="16" TextAlignment="Center"></TextBlock >
+                <TextBlock Text="DestinationCountry" Grid.Column="3" Grid.Row="1"  Foreground="Red" FontSize="16" TextAlignment="Center"></TextBlock >
+                <TextBlock Text="DepartureTime" Grid.Column="4" Grid.Row="1"  Foreground="Red" FontSize="16" TextAlignment="Center"></TextBlock >
+                <TextBlock Text="LandingTime" Grid.Column="5" Grid.Row="1"  Foreground="Red" FontSize="16" TextAlignment="Center"></TextBlock >
+                <TextBlock Text="RemainingTicket" Grid.Column="6" Grid.Row="1"  Foreground="Red" FontSize="16" TextAlignment="Center"></TextBlock >
+                <TextBlock Text="FlightStatus" Grid.Column="7" Grid.Row="1"  Foreground="Red" FontSize="16" TextAlignment="Center"></TextBlock >
+            </Grid>
+            <ListBox x:Name="myListBox" Margin="50,0,50,0" Height="800" >
+                <ListBox.ItemTemplate >
+                    <DataTemplate >
                         <Grid  ShowGridLines="true" x:Name="myGrid">
                             <Grid.ColumnDefinitions>
-                                <ColumnDefinition  Width="120" >
+                                <ColumnDefinition  Width="70" >
+                                </ColumnDefinition>
+                                <ColumnDefinition Width="200">
+                                </ColumnDefinition>
+                                <ColumnDefinition Width="200">
+                                </ColumnDefinition>
+                                <ColumnDefinition Width="200">
+                                </ColumnDefinition>
+                                <ColumnDefinition Width="200">
+                                </ColumnDefinition>
+                                <ColumnDefinition Width="200">
+                                </ColumnDefinition>
+                                <ColumnDefinition Width="120">
                                 </ColumnDefinition>
                                 <ColumnDefinition Width="120">
                                 </ColumnDefinition>
@@ -24,11 +69,16 @@
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="50">
                                 </RowDefinition>
-                                <RowDefinition Height="50">
-                                </RowDefinition>
                             </Grid.RowDefinitions>
-                            <TextBlock Text="{Binding Path=id }" Grid.Column="0" Grid.Row="1"  Foreground="Red" FontSize="20" ></TextBlock >
-                            <TextBlock Text="{Binding Path=departureTime}" Grid.Column="1" Grid.Row="0"  ></TextBlock >
+                            <TextBlock Text="{Binding Id}" Grid.Column="0" Grid.Row="1"  Foreground="Red" FontSize="16" TextAlignment="Center" ></TextBlock >
+                            <TextBlock Text="{Binding AirLinecompName}" Grid.Column="1" Grid.Row="1"  Foreground="Red" FontSize="16" TextAlignment="Center"></TextBlock >
+                            <TextBlock Text="{Binding OriginCountryName}" Grid.Column="2" Grid.Row="1"  Foreground="Red" FontSize="16" TextAlignment="Center"></TextBlock >
+                            <TextBlock Text="{Binding DestCountryName}" Grid.Column="3" Grid.Row="1"  Foreground="Red" FontSize="16" TextAlignment="Center"></TextBlock >
+                            <TextBlock Text="{Binding DepartureTime}" Grid.Column="4" Grid.Row="1"  Foreground="Red" FontSize="16" TextAlignment="Center"></TextBlock >
+                            <TextBlock Text="{Binding LandingTime}" Grid.Column="5" Grid.Row="1"  Foreground="Red" FontSize="16" TextAlignment="Center"></TextBlock >
+                            <TextBlock Text="{Binding RemainingTickets}" Grid.Column="6" Grid.Row="1"  Foreground="Red" FontSize="16" TextAlignment="Center"></TextBlock >
+                            <TextBlock Text="{Binding FlightStatus}" Grid.Column="7" Grid.Row="1"  Foreground="Red" FontSize="16" TextAlignment="Center"></TextBlock >
+
                         </Grid>
                     </DataTemplate>
                 </ListBox.ItemTemplate>

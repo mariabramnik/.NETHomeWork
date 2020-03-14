@@ -34,7 +34,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="FlightManagementSystem">
+    <Reference Include="FlightManagementSystem, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\FlightManagementSystem\FlightManagementSystem\bin\Debug\FlightManagementSystem.dll</HintPath>
     </Reference>
     <Reference Include="System" />
