@@ -1,0 +1,15 @@
+c:\users\bramnik\source\repos\HomeWork52part2Tunnel\HomeWork52part2Tunnel\bin\Debug\HomeWork52part2Tunnel.exe.config
+c:\users\bramnik\source\repos\HomeWork52part2Tunnel\HomeWork52part2Tunnel\bin\Debug\HomeWork52part2Tunnel.exe
+c:\users\bramnik\source\repos\HomeWork52part2Tunnel\HomeWork52part2Tunnel\bin\Debug\HomeWork52part2Tunnel.pdb
+c:\users\bramnik\source\repos\HomeWork52part2Tunnel\HomeWork52part2Tunnel\obj\Debug\HomeWork52part2Tunnel.csprojResolveAssemblyReference.cache
+c:\users\bramnik\source\repos\HomeWork52part2Tunnel\HomeWork52part2Tunnel\obj\Debug\MainWindow.g.cs
+c:\users\bramnik\source\repos\HomeWork52part2Tunnel\HomeWork52part2Tunnel\obj\Debug\App.g.cs
+c:\users\bramnik\source\repos\HomeWork52part2Tunnel\HomeWork52part2Tunnel\obj\Debug\HomeWork52part2Tunnel_MarkupCompile.cache
+c:\users\bramnik\source\repos\HomeWork52part2Tunnel\HomeWork52part2Tunnel\obj\Debug\HomeWork52part2Tunnel_MarkupCompile.lref
+c:\users\bramnik\source\repos\HomeWork52part2Tunnel\HomeWork52part2Tunnel\obj\Debug\MainWindow.baml
+c:\users\bramnik\source\repos\HomeWork52part2Tunnel\HomeWork52part2Tunnel\obj\Debug\HomeWork52part2Tunnel.g.resources
+c:\users\bramnik\source\repos\HomeWork52part2Tunnel\HomeWork52part2Tunnel\obj\Debug\HomeWork52part2Tunnel.Properties.Resources.resources
+c:\users\bramnik\source\repos\HomeWork52part2Tunnel\HomeWork52part2Tunnel\obj\Debug\HomeWork52part2Tunnel.csproj.GenerateResource.cache
+c:\users\bramnik\source\repos\HomeWork52part2Tunnel\HomeWork52part2Tunnel\obj\Debug\HomeWork52part2Tunnel.csproj.CoreCompileInputs.cache
+c:\users\bramnik\source\repos\HomeWork52part2Tunnel\HomeWork52part2Tunnel\obj\Debug\HomeWork52part2Tunnel.exe
+c:\users\bramnik\source\repos\HomeWork52part2Tunnel\HomeWork52part2Tunnel\obj\Debug\HomeWork52part2Tunnel.pdb

@@ -1,0 +1,20 @@
+﻿<Window x:Class="HomeWork52part2Tunnel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HomeWork52part2Tunnel"
+        mc:Ignorable="d"
+               Title="MainWindow" Height="800" Width="1000" Background="Black">
+    <Grid>
+        <Button x:Name="mainButton" PreviewMouseDown="outter_PreviewKeyDown" Margin="80">
+            <StackPanel  x:Name="Outer" Margin="80" PreviewMouseDown="Panel_Click2" Background="Orange">
+                <StackPanel PreviewMouseDown="Panel_Click" Margin="80" Background="Gray">
+                    <Button Content="Button" HorizontalAlignment="Left" Margin="310,65,0,0" VerticalAlignment="Top" Width="295" Height="45" PreviewMouseDown="Button_Click_1"/>
+                </StackPanel>
+                <Button x:Name="smallButton" Width="100" Height="30" Margin="100,100,200,0" PreviewMouseDown="inner_PreviewKeyDown" Content="SmallButton">
+                </Button>
+            </StackPanel>
+        </Button>
+    </Grid>
+</Window>
