@@ -1,0 +1,7 @@
+C:\Users\Bramnik\source\repos\ADO2Project\ADO2Project\bin\Debug\ADO2Project.exe.config
+C:\Users\Bramnik\source\repos\ADO2Project\ADO2Project\bin\Debug\ADO2Project.exe
+C:\Users\Bramnik\source\repos\ADO2Project\ADO2Project\bin\Debug\ADO2Project.pdb
+C:\Users\Bramnik\source\repos\ADO2Project\ADO2Project\obj\Debug\ADO2Project.csprojResolveAssemblyReference.cache
+C:\Users\Bramnik\source\repos\ADO2Project\ADO2Project\obj\Debug\ADO2Project.csproj.CoreCompileInputs.cache
+C:\Users\Bramnik\source\repos\ADO2Project\ADO2Project\obj\Debug\ADO2Project.exe
+C:\Users\Bramnik\source\repos\ADO2Project\ADO2Project\obj\Debug\ADO2Project.pdb
