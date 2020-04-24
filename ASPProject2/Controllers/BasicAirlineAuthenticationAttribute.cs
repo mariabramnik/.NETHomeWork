@@ -17,44 +17,49 @@ namespace ASPProject2
     {
         public override void OnAuthorization(HttpActionContext actionContext)
         {
-            //actionContext.Response =  actionContext.Request.CreateResponse(HttpStatusCode.Unauthorized, "you are not allowed");
-            if (actionContext.Request.Headers.Authorization == null)
-            {
-                actionContext.Response = actionContext.Request.CreateResponse(HttpStatusCode.Unauthorized, "you must send username & password in basic authentication");
-                return;
-            }
-            string authenticationToken = actionContext.Request.Headers.Authorization.Parameter;
-            string decodeAuthorizationToken = Encoding.UTF8.GetString(Convert.FromBase64String(authenticationToken));
-            string[] usernamePasswordArray = decodeAuthorizationToken.Split(':');
-            string userName = usernamePasswordArray[0];
-            string password = usernamePasswordArray[1];
-
-            ILoginToken iLoginToken;
-            LoginService ls = new LoginService();
-            try
-            {
-                ls.TryLogin(password, userName, out iLoginToken);
-                //ILoginToken token = FlightCenterSystem.Login(userName, password, out BaseFacade facade);
-                if (iLoginToken is LoginToken<AirLineCompany>)
-                {
-                    actionContext.Request.Properties["token"] = iLoginToken;
-                    actionContext.Request.Properties["username"] = userName;
-                }
-                else
-                {
-                    actionContext.Response = actionContext.Request.CreateResponse(HttpStatusCode.Unauthorized,
-                                    "User is not airline company. please try again");
-                }
-            }
-            catch (Exception ex)
-            {
-                // if (ex is WrongPasswordException)
-                // {
-                actionContext.Response = actionContext.Request.CreateResponse(HttpStatusCode.Unauthorized, "you are not allowed");
-                // }
-            }
-
-            //          actionContext.Response = actionContext.Request.CreateResponse(HttpStatusCode.Unauthorized, "you are not allowed");
+            BaseAuthenticationAttribute<LoginToken<AirLineCompany>> baseAuth = new BaseAuthenticationAttribute<LoginToken<AirLineCompany>>();
+            baseAuth.OnAuthorization(actionContext, "User is not airline company. please try again");
         }
+
+        /*      public override void OnAuthorization(HttpActionContext actionContext)
+               {
+                   //actionContext.Response =  actionContext.Request.CreateResponse(HttpStatusCode.Unauthorized, "you are not allowed");
+                   if (actionContext.Request.Headers.Authorization == null)
+                   {
+                       actionContext.Response = actionContext.Request.CreateResponse(HttpStatusCode.Unauthorized, "you must send username & password in basic authentication");
+                       return;
+                   }
+                   string authenticationToken = actionContext.Request.Headers.Authorization.Parameter;
+                   string decodeAuthorizationToken = Encoding.UTF8.GetString(Convert.FromBase64String(authenticationToken));
+                   string[] usernamePasswordArray = decodeAuthorizationToken.Split(':');
+                   string userName = usernamePasswordArray[0];
+                   string password = usernamePasswordArray[1];
+
+                   ILoginToken iLoginToken;
+                   LoginService ls = new LoginService();
+                   try
+                   {
+                       ls.TryLogin(password, userName, out iLoginToken);
+                       //ILoginToken token = FlightCenterSystem.Login(userName, password, out BaseFacade facade);
+                       if (iLoginToken is LoginToken<AirLineCompany>)
+                       {
+                           actionContext.Request.Properties["token"] = iLoginToken;
+                           actionContext.Request.Properties["username"] = userName;
+                       }
+                       else
+                       {
+                           actionContext.Response = actionContext.Request.CreateResponse(HttpStatusCode.Unauthorized,
+                                           "User is not airline company. please try again");
+                       }
+                   }
+                   catch (Exception ex)
+                   {
+
+                       actionContext.Response = actionContext.Request.CreateResponse(HttpStatusCode.Unauthorized, "you are not allowed");
+
+                   }
+
+               }
+       */
     }
 }

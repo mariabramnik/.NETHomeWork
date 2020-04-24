@@ -13,16 +13,9 @@ using System.Web.Http.Filters;
 
 namespace ASPProject2
 {
-    public class BasicCustomerAuthenticationAttribute : AuthorizationFilterAttribute
+    public class BaseAuthenticationAttribute<T>
     {
-        public override void OnAuthorization(HttpActionContext actionContext)
-        {
-            BaseAuthenticationAttribute<LoginToken<Customer>> baseAuth = new BaseAuthenticationAttribute<LoginToken<Customer>>();
-            baseAuth.OnAuthorization(actionContext, "User is not customer. please try again");
-        }
-
-        /*
-        public override void OnAuthorization(HttpActionContext actionContext)
+        public void OnAuthorization(HttpActionContext actionContext, string strResponce)
         {
             //actionContext.Response =  actionContext.Request.CreateResponse(HttpStatusCode.Unauthorized, "you are not allowed");
             if (actionContext.Request.Headers.Authorization == null)
@@ -42,24 +35,25 @@ namespace ASPProject2
             {
                 ls.TryLogin(password, userName, out iLoginToken);
                 //ILoginToken token = FlightCenterSystem.Login(userName, password, out BaseFacade facade);
-                if (iLoginToken is LoginToken<Customer>)
+                if (iLoginToken is T)
                 {
                     actionContext.Request.Properties["token"] = iLoginToken;
                     actionContext.Request.Properties["username"] = userName;
                 }
                 else
                 {
-                    actionContext.Response = actionContext.Request.CreateResponse(HttpStatusCode.Unauthorized,
-                                    "User is not customer. please try again");
+                    actionContext.Response = actionContext.Request.CreateResponse(HttpStatusCode.Unauthorized, strResponce);
                 }
             }
             catch (Exception ex)
-            {       
+            {
+                // if (ex is WrongPasswordException)
+                // {
                 actionContext.Response = actionContext.Request.CreateResponse(HttpStatusCode.Unauthorized, "you are not allowed");
-             
+                // }
             }
 
+            //          actionContext.Response = actionContext.Request.CreateResponse(HttpStatusCode.Unauthorized, "you are not allowed");
         }
-        */
     }
 }
