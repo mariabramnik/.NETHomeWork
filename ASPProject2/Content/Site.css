@@ -15,3 +15,100 @@ select,
 textarea {
     max-width: 280px;
 }
+.table-my {
+    color: rgba(255,255,255,.9);
+    text-shadow: #2e7ebd 0 1px 2px;
+    line-height: 1.1;
+    white-space: pre-line;
+    padding: .7em 0;
+    border: 1px solid;
+    border-color: #60a3d8 #2970a9 #2970a9 #60a3d8;
+   
+    outline: none;
+    background: #60a3d8 linear-gradient(#89bbe2, #60a3d8 50%, #378bce);
+    box-shadow: inset rgba(255,255,255,.5) 1px 1px;
+}
+.table-my-green {
+    color: rgba(255,255,255,.9);
+    text-shadow: #2e7ebd 0 1px 2px;
+    line-height: 1.1;
+    white-space: pre-line;
+    padding: .7em 0;
+    border: 1px solid;
+    border-color: #0d9e47 #385e47 #385e47 #0d9e47;
+    outline: none;
+    background: #40c977 linear-gradient(#1c7a42, #2bcf6d 50%, #077834);
+    box-shadow: inset rgba(121, 242, 170, 1)1px 1px;
+}
+.table-my-red {
+    color: rgba(255,255,255,.9);
+    text-shadow: #2e7ebd 0 1px 2px;
+    line-height: 1.1;
+    white-space: pre-line;
+    padding: .7em 0;
+    border: 1px solid;
+    border-color: #f70c28 #940919 #940919 #f70c28;
+    outline: none;
+    background: #f70c28 linear-gradient(#fc445a, #f70c28 50%, #a60c1e);
+    box-shadow: inset rgba(235, 77, 96, 1)1px 1px;
+   
+}
+.header-table {
+    color: rgba(255,255,255,.9);
+    text-shadow: #2e7ebd 0 1px 2px;
+    line-height: 1.1;
+    white-space: pre-line;
+    padding: .7em 0;
+    border: 1px solid;
+    border-color: #60a3d8 #2970a9 #2970a9 #60a3d8;
+    outline: none;
+    background: #4160d1 linear-gradient(#183bba, #4160d1 50%, #4666db);
+    box-shadow: inset rgba(31, 72, 219, 1)1px 1px;
+}
+.header-table-top {
+    color: rgba(255,255,255,.9);
+    text-shadow: #2e7ebd 0 1px 2px;
+    line-height: 1.1;
+    white-space: pre-line;
+    padding: .7em 0;
+    border: 1px solid;
+    border-color: #1f48db #1f48db #1f48db #1f48db;
+    outline: none;
+    background: #4160d1 linear-gradient(#183bba, #4160d1 50%, #4666db);
+    box-shadow: inset rgba(31, 72, 219, 1)1px 1px;
+}
+.button-my {
+    height: 3em;
+    width: 90%;
+    text-align: left;
+    font-size:large;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #777;
+    color: #fff;
+    outline: none;
+    border: 2px solid #a9b7e8;
+    border-radius: 5px;
+    box-shadow: inset rgba(0,0,0,0) inset, #083970;
+    background: #a9b7e8 linear-gradient(#a9b7e8, #b2c1f7 48%, #9aa8d9 52%, #a9b7e8);
+}
+.img-airplain{
+   float: right;
+}
+#ref-my {
+    font-size: large;
+    color: rgba(255,255,255,.9);
+    text-align: center;
+    background: #4160d1;
+    border:0;
+}
+ button::-moz-focus-inner{
+
+    border: 0;
+}
+
+
+
+
+
+
+ 
