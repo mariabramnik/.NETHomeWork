@@ -10,7 +10,7 @@ namespace ASPProject2
 {
     public class AnonymeController : ApiController
     {
-        AnonymousUserFacade anonymeFacade = new AnonymousUserFacade();
+         AnonymousUserFacade anonymeFacade = new AnonymousUserFacade();
 
         [HttpGet]
         [Route("api/anonyme/allflights")]
@@ -164,7 +164,29 @@ namespace ASPProject2
         }
 
         [HttpGet]
+        [Route("api/anonyme/flightsbydepartdate12hours")]
+        public IHttpActionResult GetFlightsByDepartureDate12Hours()
+        {
+            
+            List<Flight> result = new List<Flight>();
+            try
+            {
+                result = (List<Flight>)anonymeFacade.GetFlightsByDepartureTime12Hours();
+                if (result.Count == 0)
+                {
+                    return NotFound();
+                }
+            }
 
+            catch (Exception e)
+            {
+                return InternalServerError(e);
+            }
+            return Ok(result);
+        }
+
+
+        [HttpGet]
         [Route("api/anonyme/flightsbylandingdate")]
         public IHttpActionResult GetFlightsByLandingDate(string landingStr = "")
         {
@@ -173,6 +195,27 @@ namespace ASPProject2
             try
             {
                 result = (List<Flight>)anonymeFacade.GetFlightsByLandingDate(landingDate);
+                if (result.Count == 0)
+                {
+                    return NotFound();
+                }
+            }
+            catch (Exception e)
+            {
+                return InternalServerError(e);
+            }
+            return Ok(result);
+        }
+
+
+        [HttpGet]
+        [Route("api/anonyme/flightsbylandingdate12Hours")]
+        public IHttpActionResult GetFlightsByLandingDate12Hours()
+        {
+            List<Flight> result = new List<Flight>();
+            try
+            {
+                result = (List<Flight>)anonymeFacade.GetFlightsByLandingTime12Hours();
                 if (result.Count == 0)
                 {
                     return NotFound();
