@@ -1,0 +1,75 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="~/Content/Site.css" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body >
+    <div class="container" style="background:#a9e3fc;height:100%;padding-bottom:400px;padding-top:10px;">
+
+        <div class="row">
+            @if (ViewBag.flag == true)
+        {
+            <table id="table-my" border="1" class="table" style="margin:50px auto;" cellpadding="10">
+
+                <tr class="header-table">
+                    <th>ID</th>
+                    <th>AIRLINE</th>
+                    <th>FROM</th>
+                    <th>TO</th>
+                    <th>DEPARTURE TIME</th>
+                    <th>LANDING TIME</th>
+                    <th>STATUS</th>
+                </tr>
+                <tr>
+                    <td class="table-my">@ViewBag.flight.id</td>
+                    <td class="table-my">@ViewBag.flight.AirlineName</td>
+                    <td class="table-my">@ViewBag.flight.OriginCity</td>
+                    <td class="table-my">@ViewBag.flight.DestinationCity</td>
+                    <td class="table-my">@ViewBag.flight.DepartureTime</td>
+                    <td class="table-my">@ViewBag.flight.LandingTime</td>
+
+                    @if (@ViewBag.flight.Status == "Landing")
+                {
+                    <td class="table-my-red">@ViewBag.flight.Status</td>
+            }
+            else
+            {
+                <td class="table-my-green">@ViewBag.flight.Status</td>
+        }
+                </tr>
+
+            </table>
+    }
+
+        </div>
+        <div class=" row" style="height:100%">
+            <div class="col-md-12">
+                <div class="dropdown">
+                    <button type="button" style="width:250px;" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                        CHOOSE FLIGHT NUMBER
+                    </button>
+                    <div class="dropdown-menu">
+                        @foreach (int id in ViewBag.idList)
+                    {
+                        <a class="dropdown-item" href="~/Page/searchById/@id">@id</a>
+                    }
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

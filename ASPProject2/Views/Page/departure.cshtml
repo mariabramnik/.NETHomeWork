@@ -1,0 +1,58 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width" />
+    <title>Departure page</title>
+    <link rel="stylesheet" type="text/css" href="~/Content/Site.css"/>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <table border="1" class="table " cellpadding="10" style="margin:30px" > 
+            <tr class="header-table-top" height="50">
+                <th><button class="button-my">Departures<img class="img-airplain" wigth="40px" height="40px" src="~/Content/Pictures/samolet2.jpg" /></button></th>
+                <th><button id="ref-my" style="background:#4160d1; border : 0; color:#FFFFFF" onclick='window.location = "@Url.Action("search","Page") ";'>Search<img class="img-search" width="40px" height="40px" src="~/Content/Pictures/search.png" /></button></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr class="header-table" >            
+                <th>ID</th>
+                <th>AIRLINE</th>
+                <th>FROM</th>
+                <th>TO</th>
+                <th>DEPARTURE TIME</th>
+                <th>STATUS</th>
+            </tr>
+            @foreach (var flightDisplay in ViewBag.FlightDisplay)
+           {
+
+            <tr>
+                <td class="table-my">@flightDisplay.id</td>
+                <td class="table-my">@flightDisplay.AirlineName</td>
+                <td class="table-my">@flightDisplay.OriginCity</td>
+                <td class="table-my">@flightDisplay.DestinationCity</td>
+                <td class="table-my">@flightDisplay.DepartureTime</td>
+                @if (flightDisplay.Status == "ON TIME")
+                 {
+                    <td class="table-my-green">@flightDisplay.Status</td>
+                 }
+                else
+                {
+                    <td class="table-my-red">@flightDisplay.Status</td>
+                }
+                </tr>
+}
+        </table>
+        <br />
+        <a href="index" style="margin:30px">Go to registration form</a>
+    </div>
+</body>
+</html>

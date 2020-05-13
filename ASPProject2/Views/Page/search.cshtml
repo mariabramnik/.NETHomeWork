@@ -1,0 +1,95 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="~/Content/Site.css" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div class="container" style="background:#a9e3fc;padding:140px;">
+        <div class="row" >
+            <div class=" = col-md-1">
+
+            </div>
+
+            <div class="col-md-3"style="padding-left:0;padding-right:0;">
+                <button type="button" class="btn btn-primary " disabled style="float:right;width:100%">
+                    Search<img class="img-search" width="40px" height="40px" src="~/Content/Pictures/search.png" />
+                </button>
+            </div>
+            <div class="col-md-3"style="padding-left:0;padding-right:0;">
+                <div class="dropdown">
+                    <button type="button" class="btn btn-primary" disabled style="width:100%">
+                        Departures&nbsp;&nbsp;&nbsp;<img class="img-airplain" wigth="40px" height="40px" src="~/Content/Pictures/vzlet.png" />
+                    </button>
+            
+                </div>
+            </div>
+            <div class="col-md-3" style="padding-left:0;padding-right:0;">
+                <div class="dropdown">
+                    <button type="button" class="btn btn-primary " disabled style="float:left;width:100%">
+                        Arrivals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img class="img-airplain" wigth="40px" height="40px" src="~/Content/Pictures/vniz.png" />
+                    </button>
+
+                </div>
+            </div>
+
+            <div class="col-md-2"style="padding-left:0;padding-right:0;">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class=" = col-md-1">
+
+            </div>
+
+            <div class="col-md-3" style="padding-left:0;padding-right:0;">
+                <button type="button" disabled class="btn btn-primary" style="float:right; width:100%">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </button>
+            </div>
+            <div class="col-md-3"style="padding-left:0;padding-right:0;">
+                <div class="dropdown">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" style="width:100%">
+                        SELECT BY
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="SearchById">Flight Number</a>
+                        <a class="dropdown-item" href="SearchByAirline">AirLine</a>
+                        <a class="dropdown-item" href="SearchByOriginCountry">Origin Country</a>
+                        <a class="dropdown-item" href="SearchByDestinationCountry">Destination Country</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3"style="padding-left:0;padding-right:0;">
+                <div class="dropdown">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" style="width:100%">
+                        SELECT BY:
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="SearchAlreadytakenOff">Already taken off</a>
+                        <a class="dropdown-item" href="SearchNotTakenOffYet">Haven't taken off yet</a>
+                        <a class="dropdown-item" href="Allflights">All Flights</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2"style="padding-left:0;padding-right:0;">
+                <intput></intput>
+            </div>
+        </div>
+   
+    </div>
+</body>
+</html>
