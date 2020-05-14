@@ -16,11 +16,12 @@ namespace ASPProject2.Controllers
         FlyingCenterSystem fs = FlyingCenterSystem.Instance;
         public static  Random ran = new Random();
         // GET: Page
-        public ActionResult Index()
-        {
-            return View();
-        }
+   //     public ActionResult Index()
+   //     {
+   //         return View();
+   //     }
 
+        //find flights that fly in the next 12 hours
         public ActionResult Departure()
         {
             // get anonymous facade
@@ -74,7 +75,7 @@ namespace ASPProject2.Controllers
             return View();
         }
 
-
+        //find flights that land in the next 12 hours
         public ActionResult Landing()
         {
             DateTime nowTime = DateTime.Now;
@@ -104,13 +105,28 @@ namespace ASPProject2.Controllers
                     Country originCountry = anonymeFacade.GetCountryById(flight.originCountryCode);
                     string originCountryName = originCountry.countryName;
                     List<City> listCities = (List<City>)anonymeFacade.GetAllByCountry(originCountryName);
-                    City[] arrCities = listCities.ToArray();
-                    flightDisplay.OriginCity = arrCities[0].city;
+                    if (listCities.Count > 0)
+                    {
+                        City[] arrCities = listCities.ToArray();
+                        flightDisplay.OriginCity = arrCities[0].city;
+                    }
+                    else
+                    {
+                        flightDisplay.OriginCity = originCountryName;
+                    }
+                   
                     Country destinationCountry = anonymeFacade.GetCountryById(flight.destinationCountryCode);
                     string destinationCountryName = destinationCountry.countryName;
                     List<City> listCities2 = (List<City>)anonymeFacade.GetAllByCountry(destinationCountryName);
-                    City[] arrCities2 = listCities2.ToArray();
-                    flightDisplay.DestinationCity = arrCities2[0].city;
+                    if (listCities2.Count > 0)
+                    {
+                        City[] arrCities2 = listCities2.ToArray();
+                        flightDisplay.DestinationCity = arrCities2[0].city;
+                    }
+                    else
+                    {
+                        flightDisplay.OriginCity = originCountryName;
+                    }
                     flightDisplay.DepartureTime = flight.departureTime.ToString("HH:mm");
                     flightDisplay.LandingTime = flight.landingTime.ToString("HH:mm");
                     
@@ -158,11 +174,12 @@ namespace ASPProject2.Controllers
             return View();
             
         }
+        //go to search page
         public ActionResult Search()
         {
             return View();
         }
- 
+        //find flight by id
         public ActionResult SearchById(int ? id)
         {
          
@@ -210,6 +227,8 @@ namespace ASPProject2.Controllers
                 return View();
         }
 
+        //from the class Flight to a special class FlightDisplaySearch 
+        //that display flights after the search in a user-friendly form
         public FlightDisplaySearch FromFlightToFlightDysplaySearch(Flight flight)
         {
             DateTime nowTime = DateTime.Now;
@@ -250,7 +269,9 @@ namespace ASPProject2.Controllers
 
             TimeSpan diff1 = nowTime.Subtract(flight.landingTime);
             var mydiff = flight.landingTime - nowTime;
-            int diff = mydiff.Minutes;
+            var diff = mydiff.TotalMinutes;
+           // int diff = mydiff.Minutes;
+
             if (diff < 15 && diff > 0)
             {
                 fl.Status = "Landing";
@@ -270,6 +291,7 @@ namespace ASPProject2.Controllers
             return fl;
         }
 
+        //find flights by airline
         public ActionResult SearchByAirline(int ? id)
         {
             List<AirLineCompany> airlineList = new List<AirLineCompany>();
@@ -320,6 +342,7 @@ namespace ASPProject2.Controllers
             return View();
         }
 
+        //find flights by origin country
         public ActionResult SearchByOriginCountry(int? id)
         {
             List<Country> countryList = new List<Country>();
@@ -370,6 +393,7 @@ namespace ASPProject2.Controllers
             return View();
         }
 
+        //find flights by destination country
         public ActionResult SearchByDestinationCountry(int? id)
         {
             List<Country> countryList = new List<Country>();
@@ -420,6 +444,7 @@ namespace ASPProject2.Controllers
             return View();
         }
 
+        //flights that have already taken off but not yet landed
         public ActionResult SearchAlreadytakenOff()
         {
             List<FlightDisplaySearch> listFlightdisplay = new List<FlightDisplaySearch>();
@@ -446,6 +471,7 @@ namespace ASPProject2.Controllers
             return View();
         }
 
+        //flights that have not yet taken off
         public ActionResult SearchNotTakenOffYet()
         {
             List<FlightDisplaySearch> listFlightdisplay = new List<FlightDisplaySearch>();
@@ -472,6 +498,7 @@ namespace ASPProject2.Controllers
             return View();
         }
 
+        // all flights
         public ActionResult AllFlights()
         {
             List<FlightDisplaySearch> listFlightdisplay = new List<FlightDisplaySearch>();

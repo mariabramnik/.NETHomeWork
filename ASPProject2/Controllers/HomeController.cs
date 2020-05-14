@@ -12,11 +12,17 @@ namespace ASPProject2.Controllers
 {
     public class HomeController : Controller
     {
-        
+
         FlyingCenterSystem fs = FlyingCenterSystem.Instance;
         public ActionResult Index()
         {
-           // GenerateFlights12Hours();
+            //fill in the DB if necessary
+            bool res = DBHaveFlightsNext12Hours();
+            if(res == false)
+            {
+                GenerateFlights12Hours();
+            }
+            
             ViewBag.Title = "Home Page";
 
             return View();
@@ -224,6 +230,26 @@ namespace ASPProject2.Controllers
                 int id = iAirlineCompanyFS.CreateFlight(ltAirLine, flight);
                 flight.id = id;
             }
+        }
+
+        public bool DBHaveFlightsNext12Hours()
+        {
+            bool res = false;
+            List<Flight> result = new List<Flight>();
+            try
+            {
+                IAnonymousUserFacade anonymeFacade = fs.GetFacade<IAnonymousUserFacade>();
+                result = (List<Flight>)anonymeFacade.GetFlightsByDepartureTime12Hours();
+            }
+            catch (Exception e)
+            {
+                //return InternalServerError(e);
+            }
+            if (result.Count > 5)
+            {
+                res = true;
+            }
+            return res;
         }
     }
 }
