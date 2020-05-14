@@ -22,6 +22,7 @@
                 <th></th>
                 <th></th>
                 <th></th>
+                <th></th>
 
             </tr>
             <tr class="header-table">
@@ -29,28 +30,30 @@
                 <th>AIRLINE</th>
                 <th>FROM</th>
                 <th>TO</th>
+                <th>DEPARTURE TIME</th>
                 <th>LANDING TIME</th>
                 <th>STATUS</th>
             </tr>
             @foreach (var flightDisplaySearch in ViewBag.listFlightdisplay)
             {
 
-                <tr>
-                    <td class="table-my">@flightDisplaySearch.id</td>
-                    <td class="table-my">@flightDisplaySearch.AirlineName</td>
-                    <td class="table-my">@flightDisplaySearch.OriginCity</td>
-                    <td class="table-my">@flightDisplaySearch.DestinationCity</td>
-                    <td class="table-my">@flightDisplaySearch.LandingTime</td>
+            <tr>
+                <td class="table-my">@flightDisplaySearch.id</td>
+                <td class="table-my">@flightDisplaySearch.AirlineName</td>
+                <td class="table-my">@flightDisplaySearch.OriginCity</td>
+                <td class="table-my">@flightDisplaySearch.DestinationCity</td>
+                <td class="table-my">@flightDisplaySearch.DepartureTime</td>
+                <td class="table-my">@flightDisplaySearch.LandingTime</td>
 
-                    @if (flightDisplaySearch.Status == "Landing")
-                    {
-                        <td class="table-my-red">@flightDisplaySearch.Status</td>
-                    }
-                    else
-                    {
-                        <td class="table-my-green">@flightDisplaySearch.Status</td>
-                    }
-                </tr>
+                @if (flightDisplaySearch.Status == "Landing")
+    {
+            <td class="table-my-red">@flightDisplaySearch.Status</td>
+}
+else
+{
+            <td class="table-my-green">@flightDisplaySearch.Status</td>
+}
+            </tr>
             }
         </table>
         <br />

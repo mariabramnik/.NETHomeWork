@@ -42,7 +42,7 @@
                 <td class="table-my">@flightDisplay.DestinationCity</td>
                 <td class="table-my">@flightDisplay.LandingTime</td>
                 
-                @if (flightDisplay.Status == "Landing")
+                @if (flightDisplay.Status == "Landing" || flightDisplay.Status == "DELAYED")
                 {
                     <td class="table-my-red">@flightDisplay.Status</td>
                 }
