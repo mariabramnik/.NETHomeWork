@@ -132,8 +132,8 @@ namespace ASPProject2.Controllers
                     
                     TimeSpan diff1 = nowTime.Subtract(flight.landingTime);
                     var mydiff = flight.landingTime - nowTime;
-                    int diff = mydiff.Minutes;
-                    if(diff < 15 && diff > 0)
+                    var diff = mydiff.TotalMinutes;
+                    if (diff < 15 && diff > 0)
                     {
                         flightDisplay.Status = "Landing";
                     }
