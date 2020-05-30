@@ -36,8 +36,8 @@ namespace ASPProject2
             List<Country> result = new List<Country>();
             try
             {
-                result = (List<Country>)anonymeFacade.GetAllCountries();
-
+                //result = (List<Country>)anonymeFacade.GetAllCountries();
+                result = (List<Country>)anonymeFacade.GetAllCountriesByTemplate();
             }
             catch (Exception e)
             {
