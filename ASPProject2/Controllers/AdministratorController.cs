@@ -158,6 +158,110 @@ namespace ASPProject2.Controllers
             {
                 LoginToken<Administrator> token = GetLoginToken();
                 country.id = adminFacade.CreateCountry(token, country);
+                //country.id = adminFacade.CreateCountryByTemplate(token, country);
+            }
+            catch (CountryAlredyExistException e)
+            {
+                return BadRequest(e.Message);
+            }
+            catch (Exception e)
+            {
+                return InternalServerError(e);
+            }
+            return CreatedAtRoute("GetCountryById", new { country.id }, country);
+        }
+
+        [HttpDelete]
+        [Route("api/administrator/removecountry")]
+        public IHttpActionResult RemoveCountry([FromBody] Country country)
+        {
+            try
+            {
+                LoginToken<Administrator> token = GetLoginToken();
+                adminFacade.RemoveCountry(token, country);
+               
+            }
+            catch (CountryNotExistException e)
+            {
+                return NotFound();
+            }
+            catch (Exception e)
+            {
+                return InternalServerError(e);
+            }
+            return Ok();
+        }
+
+        [HttpDelete]
+        [Route("api/administrator/removecountrybytemplate")]
+        public IHttpActionResult RemoveCountryByTemplate([FromBody] Country country)
+        {
+            try
+            {
+                LoginToken<Administrator> token = GetLoginToken();
+                adminFacade.RemoveCountryByTemplate(token, country);
+
+            }
+            catch (CountryNotExistException e)
+            {
+                return NotFound();
+            }
+            catch (Exception e)
+            {
+                return InternalServerError(e);
+            }
+            return Ok();
+        }
+
+        [HttpPut]
+        [Route("api/administrator/updatecountry")]
+        public IHttpActionResult UpdateCountry([FromBody] Country country)
+        {
+            try
+            {
+                LoginToken<Administrator> token = GetLoginToken();
+                adminFacade.UpdateCountry(token, country);
+            }
+            catch (CustomerNotExistException e)
+            {
+                return NotFound();
+            }
+            catch (Exception e)
+            {
+                return InternalServerError(e);
+            }
+            return ResponseMessage(new HttpResponseMessage(HttpStatusCode.NoContent));
+        }
+
+        [HttpPut]
+        [Route("api/administrator/updatecountrybytemplate")]
+        public IHttpActionResult UpdateCountryByTemplate([FromBody] Country country)
+        {
+            try
+            {
+                LoginToken<Administrator> token = GetLoginToken();
+                adminFacade.UpdateCountryByTemplate(token, country);
+            }
+            catch (CustomerNotExistException e)
+            {
+                return NotFound();
+            }
+            catch (Exception e)
+            {
+                return InternalServerError(e);
+            }
+            return ResponseMessage(new HttpResponseMessage(HttpStatusCode.NoContent));
+        }
+
+        [HttpPost]
+        [Route("api/administrator/addcountrybytemplate")]
+        public IHttpActionResult AddCountryByTemplate([FromBody] Country country)
+        {
+            try
+            {
+                LoginToken<Administrator> token = GetLoginToken();
+                //country.id = adminFacade.CreateCountry(token, country);
+                country.id = adminFacade.CreateCountryByTemplate(token, country);
             }
             catch (CountryAlredyExistException e)
             {
